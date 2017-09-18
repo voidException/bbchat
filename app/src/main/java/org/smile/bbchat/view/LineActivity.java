@@ -180,7 +180,7 @@ public class LineActivity extends AppCompatActivity {
         }); //recyclerview
     }
 
-    /************************这个是获取数据的****************************************/
+    /************************这个是获取数据的内部类****************************************/
     private class GetData extends AsyncTask<String, Integer, String> {
 
         @Override
@@ -234,7 +234,7 @@ public class LineActivity extends AppCompatActivity {
         }
     } //GetData
 
-    /*  LineActivity的内部类MyAdapter */
+    /************************LineActivity的内部类MyAdapter****************************************/
     class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> implements View.OnClickListener {
 
         @Override
@@ -273,7 +273,8 @@ public class LineActivity extends AppCompatActivity {
             SnackbarUtil.ShortSnackbar(coordinatorLayout,"点击第"+position+"个",SnackbarUtil.Info).show();
         }
 
-        /*  MyAdapter 内部类 ViewHolder*/
+
+        /************************ /*  MyAdapter的 内部类 ViewHolder ****************************************/
         class MyViewHolder extends RecyclerView.ViewHolder
         {
             private ImageView iv;

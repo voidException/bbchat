@@ -10,8 +10,7 @@
         android:layout_height="match_parent"
         android:layout_margin="5dp"
         android:adjustViewBounds="true"
-        android:scaleType="centerCrop"
-        />
+        android:scaleType="centerCrop" />
     <TextView
         android:id="@+id/line_item_tv"
         android:layout_width="0dp"
