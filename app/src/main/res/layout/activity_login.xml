@@ -57,10 +57,10 @@
                 android:layout_centerVertical="true"
                 android:background="@drawable/edittext_login"
                 android:hint="你的邮箱"
-                android:inputType="phone"
+                android:inputType="textEmailAddress"
                 android:paddingLeft="90dp"
                 android:maxLines="1"
-                android:maxLength="11"
+                android:maxLength="60"
                 android:textColorHint="#DDDDDD"
                 android:textSize="16sp" />
 
@@ -111,7 +111,7 @@
             android:layout_height="45dp"
             android:layout_marginTop="40dp"
             android:background="@drawable/btn_enable_green"
-            android:enabled="false"
+            android:enabled="true"
             android:paddingBottom="7dp"
             android:paddingTop="7dp"
             android:text="登录"
@@ -144,6 +144,18 @@
             android:layout_centerHorizontal="true"
             android:layout_marginTop="10dp"
             android:text="注册"
+            android:textColor="#353535"
+            android:textSize="15sp" />
+        <Button
+            android:layout_toLeftOf="@+id/btn_qtlogin"
+            android:background="#F0F0F0"
+            android:id="@+id/btn_zhuye"
+            android:layout_width="wrap_content"
+            android:layout_height="33dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text="主页推文"
             android:textColor="#353535"
             android:textSize="15sp" />
     </RelativeLayout>

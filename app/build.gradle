@@ -5,8 +5,8 @@ android {
     buildToolsVersion "25.0.2"
     defaultConfig {
         applicationId "org.smile.bbchat"
-        minSdkVersion 11
-        targetSdkVersion 11
+        minSdkVersion 19
+        targetSdkVersion 23
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
@@ -26,5 +26,11 @@ dependencies {
     })
     compile 'com.android.support.constraint:constraint-layout:1.0.2'
     compile 'com.android.support:appcompat-v7:25.3.1'
+    compile 'com.squareup.okhttp3:okhttp:3.9.0'
+    compile 'com.google.code.gson:gson:2.8.1'
+    compile 'com.android.support:design:25.3.1'
+    compile 'com.squareup.picasso:picasso:2.3.2'
+    compile 'com.github.CarGuo:RickText:v2.0.9'
+    compile 'jp.wasabeef:richeditor-android:1.2.2'
     testCompile 'junit:junit:4.12'
 }

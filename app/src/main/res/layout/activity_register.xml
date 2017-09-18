@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="org.smile.bbchat.view.RegisterActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="500dp" >
+
+        <TextView
+            android:id="@+id/et_textemail"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_alignLeft="@id/et_usertel"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="24dp"
+            android:text=" @阿里音乐 15652649121 https://www.baidu.com/index.php?tn=baiduhome_pg 9992@qq.com 腾讯音乐宣布达成互相转授版权合作】这意味着周杰伦、李宇春、蔡依林、TFBOYS、苏打绿等歌手的歌曲都能在阿里音乐集团云"
+            android:textColor="#353535"
+            android:textSize="16sp" />
+
+    </RelativeLayout>
+
+</LinearLayout>
